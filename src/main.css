@@ -1,3 +1,14 @@
 body {
   font-family: sans-serif;
 }
+
+pre {
+  color: white;
+  background-color: gray;
+  width: 200px;
+  padding: 5px 15px;
+}
+
+code {
+  font-size: 12pt;
+}
