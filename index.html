@@ -8,7 +8,10 @@
   <body>
     <h1>Exercices JavaScript ES6+</h1>
     <ul>
-      <li>Récupérer le repo git.</li>
+      <li>
+        Récupérer le repo git :
+        <pre><code>git clone https://github.com/clemissile/exos-javascript-es6plus.git</code></pre>
+      </li>
       <li>
         Installer les dépendances :
         <pre><code>npm install</code></pre>
@@ -17,99 +20,28 @@
         Lancer le projet :
         <pre><code>npm run start</code></pre>
       </li>
-      <li>Résoudre les exercices.</li>
+      <li>Résoudre les exercices suivant :</li>
     </ul>
 
     <h2>Exercices</h2>
 
-    <h3>Exercice 1</h3>
-    <p>
-      Dans <code>index.js</code> afficher le nom de chaque
-      <code>company</code> en utilisant <code>forEach</code>.
-    </p>
+    <button id="prev">&larr;</button>
+    <button id="next">&rarr;</button>
 
-    <h3>Exercice 2</h3>
-    <p>
-      Dans <code>index.js</code> afficher le nom de chaque
-      <code>company</code> qui débuta après 1987.
-    </p>
-
-    <h3>Exercice 3</h3>
-    <p>
-      Dans <code>index.js</code> récupérer seulement les
-      <code>companies</code> qui ont comme catégorie <code>Retail</code>,
-      incrémenter leur date de début de 1 et afficher l'objet
-      <code>company</code>.
-    </p>
-
-    <h3>Exercice 4</h3>
-    <p>
-      Dans <code>index.js</code> trier les <code>companies</code> dans l'ordre
-      croissant de leur date de création.
-    </p>
-
-    <h3>Exercice 5</h3>
-    <p>
-      Dans <code>index.js</code> afficher les <code>companies</code> qui
-      existaient en 2006.
-    </p>
-
-    <h3>Exercice 6</h3>
-    <p>
-      Dans <code>index.js</code> trier le tableau <code>ages</code> dans l'ordre
-      décroissant.
-    </p>
-
-    <h3>Exercice 7</h3>
-    <p>
-      Dans <code>index.js</code> afficher la somme de tous les ages en utilisant
-      <code>reduce</code>.
-    </p>
-
-    <h3>Exercice 8</h3>
-    <p>
-      Dans <code>index.js</code> créer un nouvel objet identique à
-      <code>companies[0]</code>, en utilisant le clonage d'objet.
-    </p>
-
-    <h3>Exercice 9</h3>
-    <p>
-      Dans <code>index.js</code> créer une <i>arrow function</i> qui prends
-      <i>n</i> arguments de type <code>number</code> et qui retourne leur somme.
-    </p>
-
-    <h3>Exercice 10</h3>
-    <p>
-      Dans <code>index.js</code> créer une <i>arrow function</i> qui prends
-      <i>n</i> arguments de n'importe quel type et qui les ajoute à un tableau
-      avant de le retourner. Si l'argument est un tableau, le tableau final ne
-      doit contenir que les valeurs du tableau passé en argument.
-    </p>
-
-    <h3>Exercice 11</h3>
-    <p>
-      Dans <code>index.js</code> créer une <i>arrow function</i> qui à chaque
-      appel, retourne un numéro qui s'incrémente en partant de 0.
-    </p>
-
-    <h3>Exercice 12</h3>
-    <p>
-      Dans <code>index.js</code> créer une <i>arrow function</i> qui prends de
-      paramètres de <i>query</i> d'une URL et qui les retourne comme un objet de
-      clé-valeur.
-    </p>
-
-    <h3>Exercice 13</h3>
-    <p>
-      Dans <code>index.js</code> trouver et afficher la seule personne qui
-      s'appelle <i>Albus</i>.
-    </p>
-
-    <h3>Exercice 14</h3>
-    <p>
-      Dans <code>index.js</code> trouver et afficher le nom des personnes dont
-      l'adresse contient <i>Lalaland</i>.
-    </p>
+    <div id="exo1"></div>
+    <div id="exo2"></div>
+    <div id="exo3"></div>
+    <div id="exo4"></div>
+    <div id="exo5"></div>
+    <div id="exo6"></div>
+    <div id="exo7"></div>
+    <div id="exo8"></div>
+    <div id="exo9"></div>
+    <div id="exo10"></div>
+    <div id="exo11"></div>
+    <div id="exo12"></div>
+    <div id="exo13"></div>
+    <div id="exo14"></div>
 
     <script type="module" src="src/index.js"></script>
   </body>

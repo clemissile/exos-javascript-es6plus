@@ -1,42 +1,32 @@
 import './main.css';
+import './main.js';
 
-const companies = [
-  { name: 'Company One', category: 'Finance', start: 1981, end: 2004 },
-  { name: 'Company Two', category: 'Retail', start: 1992, end: 2008 },
-  { name: 'Company Three', category: 'Auto', start: 1999, end: 2007 },
-  { name: 'Company Four', category: 'Retail', start: 1989, end: 2010 },
-  { name: 'Company Five', category: 'Technology', start: 2009, end: 2014 },
-  { name: 'Company Six', category: 'Finance', start: 1987, end: 2010 },
-  { name: 'Company Seven', category: 'Auto', start: 1986, end: 1996 },
-  { name: 'Company Eight', category: 'Technology', start: 2011, end: 2016 },
-  { name: 'Company Nine', category: 'Retail', start: 1981, end: 1989 },
-];
+import exo1 from './exercises/exo1';
+import exo2 from './exercises/exo2';
+import exo3 from './exercises/exo3';
+import exo4 from './exercises/exo4';
+import exo5 from './exercises/exo5';
+import exo6 from './exercises/exo6';
+import exo7 from './exercises/exo7';
+import exo8 from './exercises/exo8';
+import exo9 from './exercises/exo9';
+import exo10 from './exercises/exo10';
+import exo11 from './exercises/exo11';
+import exo12 from './exercises/exo12';
+import exo13 from './exercises/exo13';
+import exo14 from './exercises/exo14';
 
-const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
-
-const persons = [
-  {
-    name: 'Harry',
-    address: {
-      street: 'Lalaland 12',
-    },
-  },
-  {
-    name: 'Ron',
-    address: {
-      street: 'Lalaland 29',
-    },
-  },
-  {
-    name: 'Hermione',
-    address: {
-      street: 'Chemin de traverse',
-    },
-  },
-  {
-    name: 'Albus',
-    address: {
-      street: 'Poudlard',
-    },
-  },
-];
+exo1();
+exo2();
+exo3();
+exo4();
+exo5();
+exo6();
+exo7();
+exo8();
+exo9();
+exo10();
+exo11();
+exo12();
+exo13();
+exo14();
