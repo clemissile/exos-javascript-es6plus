@@ -9,7 +9,7 @@ Some exercises to train with JavaScript ES6-7-8.
    ```sh
    git clone https://github.com/clemissile/exos-javascript-es6plus.git
    ```
-2. Installer npm packages
+2. Install npm packages
    ```sh
    npm install
    ```
