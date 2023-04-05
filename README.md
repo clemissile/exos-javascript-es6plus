@@ -3,19 +3,18 @@
 <br />
 
 <div align="center">
-  <img src="https://em-normandie.visualstudio.com/EmnPlatform/_apis/git/repositories/EmnBackOffice/Items?path=src/assets/img/logo/emn-logo.png&versionDescriptor[versionOptions]=0&versionDescriptor[versionType]=0&versionDescriptor[version]=master&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1" alt="EMN Logo" width="100" height="100">
-	<h3 align="center">JavaScript ES6+ Tutorials</h3>
+	<h3 align="center">Exercices JavaScript ES6+</h3>
 </div>
 
 ## Présentation
 
-Quelques exercices pour s'entrainer avec les normes JavaScript ES6+.
+Quelques exercices pour s'entrainer avec les normes JavaScript ES6-7-8.
 
 ## Installation & démarrage
 
 1. Cloner le repository Git
    ```sh
-   git clone https://em-normandie.visualstudio.com/EmnTools/_git/javascript-es6-tutos
+   git clone https://github.com/clemissile/exos-javascript-es6plus.git
    ```
 2. Installer les packages NPM
    ```sh
