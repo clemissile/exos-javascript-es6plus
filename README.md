@@ -1,9 +1,9 @@
 # JavaScript ES6+ Exercises
-## Présentation
+## Introduction
 
 Some exercises to train with JavaScript ES6-7-8.
 
-## Installation & démarrage
+## Installation
 
 1. Clone git repository
    ```sh
