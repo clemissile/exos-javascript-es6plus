@@ -1,14 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 pre {
   color: white;
   background-color: gray;
-  width: 200px;
+  width: 600px;
   padding: 5px 15px;
 }
 
 code {
-  font-size: 12pt;
+  font-size: 16px;
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 28px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  background: grey;
+  color: white;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:disabled,
+button[disabled],
+button:disabled:hover,
+button[disabled]:hover {
+  cursor: initial;
+  background-color: grey;
+  color: grey;
+  box-shadow: none;
 }
