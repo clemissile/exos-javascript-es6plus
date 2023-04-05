@@ -1,16 +1,29 @@
 {
-  "name": "javascript-es6-tutos",
+  "name": "exos-javascript-es6plus",
   "version": "1.0.0",
   "description": "Quelques exercices pour s'entrainer avec les normes JavaScript ES6+.",
-  "private": true,
-  "main": "index.html",
+  "author": {
+    "name": "Clément Ganivet",
+    "email": "ganivetclement@gmail.com",
+    "url": "https://www.olinalab.fr/"
+  },
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clemissile/exos-javascript-es6plus.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "es7",
+    "es8",
+    "junior developers"
+  ],
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+    "parcel": "^2.8.3"
   }
 }
