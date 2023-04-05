@@ -90,6 +90,6 @@ Project Link: [https://github.com/clemissile/exos-javascript-es6plus](https://gi
 [issues-shield]: https://img.shields.io/github/issues/clemissile/exos-javascript-es6plus.svg?style=for-the-badge
 [issues-url]: https://github.com/clemissile/exos-javascript-es6plus/issues
 [license-shield]: https://img.shields.io/github/license/clemissile/exos-javascript-es6plus.svg?style=for-the-badge
-[license-url]: https://github.com/clemissile/exos-javascript-es6plus/blob/master/LICENSE.txt
+[license-url]: https://github.com/clemissile/exos-javascript-es6plus/blob/master/LICENCE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/clementganivet
