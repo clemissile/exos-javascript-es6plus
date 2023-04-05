@@ -1,7 +1,7 @@
 {
   "name": "exos-javascript-es6plus",
   "version": "1.0.0",
-  "description": "Quelques exercices pour s'entrainer avec les normes JavaScript ES6+.",
+  "description": "Some exercises to train with JavaScript ES6-7-8.",
   "author": {
     "name": "Clément Ganivet",
     "email": "ganivetclement@gmail.com",
@@ -13,6 +13,7 @@
     "url": "https://github.com/clemissile/exos-javascript-es6plus.git"
   },
   "keywords": [
+    "exercises",
     "javascript",
     "es6",
     "es7",
